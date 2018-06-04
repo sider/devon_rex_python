@@ -1,4 +1,4 @@
-FROM quay.io/actcat/devon_rex_base:1.0.7
+FROM quay.io/actcat/devon_rex_base:1.0.8
 
 # Install pyenv
 RUN curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
