@@ -8,6 +8,6 @@ ENV PATH $PYENV_ROOT/shims:$PYENV_ROOT/bin:$PATH
 
 # Install python 2 and 3
 RUN pyenv install 2.7.16 \
-  && pyenv install 3.7.3 \
+  && pyenv install 3.7.2 \
   && pyenv rehash        \
-  && pyenv global 3.7.3
+  && pyenv global 3.7.2
