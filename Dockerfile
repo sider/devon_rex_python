@@ -9,9 +9,9 @@ ENV PATH="$PYENV_SHIMS_BIN:$PYENV_BIN:$PATH"
 
 # Install python 2 and 3
 RUN pyenv install 2.7.16 \
-  && pyenv install 3.7.2 \
+  && pyenv install 3.7.3 \
   && pyenv rehash        \
-  && pyenv global 3.7.2
+  && pyenv global 3.7.3
 
 # Edit secure_path to include PATH required by Python
 USER root
