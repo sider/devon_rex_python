@@ -1,4 +1,4 @@
-FROM quay.io/actcat/devon_rex_base:1.3.1
+FROM quay.io/actcat/devon_rex_base:1.3.3
 
 # Install pyenv
 USER $RUNNER_USER
